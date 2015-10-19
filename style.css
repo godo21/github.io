@@ -1,0 +1,414 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:600,100);
+html,
+body,
+ul,
+li,
+section,
+p,
+h1,
+h2,
+h3 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #2C3133;
+    text-align: center;
+    -webkit-font-smoothing: antialiased !important;
+    /*	-webkit-text-stroke: 0.2pt !important;*/
+}
+
+a:link,
+a:visited,
+a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer
+}
+
+a:hover {
+    color: RGB(0, 214, 183);
+}
+
+h1 {
+ 
+    font-size: 1.2em;
+    position: relative;
+    
+    height: auto;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 200;
+}
+.sub{
+    margin-top:1%; 
+}
+.eng {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+.soon{
+    font-size: 12px;
+    color: RGB(222, 80, 112);
+    font-weight: 600;
+}
+span {
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+h3 {
+    /*    display: inline;*/
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+p {
+    font-weight: 300;
+    font-size: 100%;
+    margin: 32px auto 0;
+    line-height: 1.5em;
+}
+
+.btn {
+    margin: auto;
+    border-radius: 22px;
+    width: 190px;
+    height: 45px;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    top: 10%;
+}
+
+.bold {
+    font-weight: 500;
+    font-size: 110%;
+    color: #ffe965;
+}
+
+.left p,
+.left h2 {
+    text-align: left;
+}
+
+.left {
+    display: block;
+    position: relative;
+    left: 48%;
+    top: 30%;
+}
+
+.gray {
+    background-color: #FAFAFA;
+}
+
+/*------------End common------------*/
+
+header {
+    width: 100%;
+    height: 60px;
+    z-index: 10;
+    position: fixed;
+    padding: 25px 2% 0 0;
+
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+.bgcolor {
+    background-color: RGB(0, 214, 183);
+    padding: 15px 2% 0 0;
+    height: 40px;
+}
+
+nav {
+    max-width: 1366px;
+    margin: auto;
+    overflow: hidden;
+
+    background: url(img/icon.png) left no-repeat;
+background-size: contain;
+
+   
+}
+
+nav ul {
+    /*    width: 60%;*/
+    position: relative;
+    text-align: right;
+
+}
+
+nav li {
+    position: relative;
+    display: inline;
+
+    padding: 0 20px;
+    margin: 0 10px;
+    color: #ffffff;
+}
+
+nav li:hover {
+    background-color: #fff;
+    color: RGB(0, 214, 183);
+    border-radius: 22px;
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in-out;
+}
+
+/*=======================*/
+
+.logo-img {
+    background: url(img/logo-center.png)  center no-repeat;
+    background-size: contain;
+    width: 342px;
+    height: 80px;
+
+}
+.line{
+    width: 342px;
+    height: 1px;
+    background-color: rgba(255,255,255,0.4);
+        margin: 1% auto;
+}
+.main {
+    /*    position: static;*/
+    background: url(img/bg_main_02.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    color: #ffffff;
+}
+
+.main .text {
+    top: 29%;
+}
+
+.main .btn {
+    background: url(img/ic_play.png) left no-repeat;
+    background-color: #13D5B7;
+    position: relative;
+    top: 40%;
+    padding: 10px 0 0 14px;
+    height: 35PX;
+    width: 176px;
+    font-family:
+}
+
+.main .btn:hover {
+    color: #fff;
+    background-color: #28bfa5;
+}
+
+.youtube:hover {
+    color: #fff;
+}
+
+.main ul li {
+    position: relative;
+    top: 54%;
+    width: 138px;
+    height: 46px;
+}
+
+.main li {
+    display: inline;
+    margin: 10px;
+}
+
+.wrap {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/*-----------Reservation----------*/
+
+#reservation {
+    z-index: 5;
+}
+
+#reservation .wrap {
+    position: relative;
+    height: 120%;
+    background: url(img/img_resrvation.png) top center no-repeat;
+    background-size: 70%;
+}
+
+/*-----------section 2----------*/
+#main {
+    height: 105%;
+}
+
+#main .wrap {
+    height: 100%;
+    background: url(img/img_app_main_list.png) left no-repeat;
+    background-size: 80%;
+}
+
+#main .text {
+    width: 50%;
+}
+
+/*------Customer Info-----*/
+
+#custormer_info {
+    height: 105%;
+}
+
+#custormer_info .wrap {
+    height: 100%;
+    background: url(img/img_app_info_customer.png) right center no-repeat;
+    background-size: 80%;
+    /*        background-attachment: fixed;*/
+}
+
+#custormer_info .text {
+    left: 4%;
+}
+
+/*----------service info--------*/
+
+#service {
+    height: 85%;
+}
+
+#service .text {
+    top: 15%;
+}
+
+.service {
+    position: relative;
+    top: 25%;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col {
+    width: 33%;
+    float: left;
+    text-align: center;
+    box-sizing: border-box;
+    height: 230px;
+}
+
+h3 {
+    position: relative;
+    top: 10%;
+    margin: 0;
+}
+
+.col p {
+    position: relative;
+    /*    display: inline;*/
+    top: -75%;
+    margin: 0;
+    height: auto;
+}
+
+.facebook-ad,
+.review,
+.no-shop {
+    display: block;
+    max-width: 200px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+.facebook-ad {
+    background: url(img/img_facebook.png) top center no-repeat;
+}
+
+.review {
+    background: url(img/img_review.png) top center no-repeat;
+}
+
+.no-shop {
+    background: url(img/img_shop.png) top center no-repeat;
+}
+
+/*-----------Join Us------------*/
+
+.join_us {
+    height: 409px;
+    background: url(img/bg_join_us_2.png) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.join_us h2,
+.join_us p {
+    color: #ffffff;
+}
+
+.join_us .text {
+    position: relative;
+    top: 25%;
+}
+
+.join_us .btn {
+    position: relative;
+    top: 35%;
+    background-color: rgb(255, 255, 255);
+    padding: 8px 0 0 0;
+    height: 37px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #3ADFC4;
+}
+
+.join_us .btn a {
+    color: #3ADFC4;
+}
+.join_us .btn:hover{
+    background-color: rgba(255, 255, 255,0.9);
+    color: aliceblue;
+}
+/*-----------Footer---------------*/
+
+footer {
+    height: 140px;
+    background-color: #25363C;
+    text-align: center;
+}
+
+footer ul li {
+    display: inline;
+    position: relative;
+    top: 24%;
+    margin: 0 20px;
+}
+
+footer p {
+    margin: auto;
+    height: auto;
+    position: relative;
+    top: -40%;
+    text-align: center;
+    color: #505E63;
+    font-size: 12px;
+}
+
+.eng-con {
+    font-family: 'Open Sans Condensed', sans-serif;
+   letter-spacing: 0.57em;
+    font-size: 1.4em;
+}

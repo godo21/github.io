@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jquery.colorbox.js"></script>
+    <script src="js/jquery.scrollme.js"></script>
+    <script src="js/jquery.scrollme.min.js"></script>
+    <!-------ScrollAnimation------->
+    <script src="js/jquery.panelSnap.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".youtube").colorbox({
+                iframe: true,
+                innerWidth: 640,
+                innerHeight: 390
+            });
+
+        });
+
+        $(document).on("scroll", function () {
+            if ($(document).scrollTop() > 650) {
+                $("header").addClass("bgcolor");
+
+                updateSliderMargin();
+            } else {
+                $("header").removeClass("bgcolor");
+
+                updateSliderMargin();
+            }
+
+        });
+    </script>
+    <!--Header-->
+    <link rel="stylesheet" href="colorbox.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>뷰티살롱의 선물 헤이뷰티</title>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+          <h1 class=" logo-header"
+          ></h1>
+            <ul class="menu">
+                <li><a href="http://www.heybeauty.kr/" target="_blank">가입신청</a></li>
+<!--                <li>사용설명</li>-->
+                <li>문의하기</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main scrollme">
+        <div class="wrap animateme" data-when="exit" data-from="0" data-to="1" data-easing="easeinout" data-opacity="-1" data-translatey="600" data-scale="0">
+            <div class="text">
+                <h1 class="logo-img"></h1>
+                
+                <h1 class="eng-con">ALL ABOUT BEAUTY</h1>
+                <div class="line" > </div>
+                <h1 class="sub">모바일 뷰티예약 서비스</h1>
+            </div>
+            <div class="btn"><a class="youtube" href="https://www.youtube.com/embed/eYJoQVZFC0o">WATCH VIDEO</a></div>
+            <ul>
+                <li><img src="img/img_app_store.png"></li>
+                <li><img src="img/img_google_play.png"></li>
+            </ul>
+
+        </div>
+    </section>
+    
+    <section id="reservation" class="scrollme animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">
+        <div class="wrap">
+            <div class="text">
+                <h2>전화통화 없이 예약하세요</h2>
+                <p>헤이뷰티는 고객과 뷰티살롱이 모두 부담이 되는 전화통화 방식에서 벗어나서
+                    <br/>뷰티살롱의 빈 시간을 일정표에서 보고 직접 선택하는 서비스입니다.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="main" class="gray scrollme animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">
+        <div class="wrap">
+            <div class="text left">
+                <h2>예약손님은 없고<br/>찾아오는 손님도 없고..</h2>
+                <p>손님이 없는 시간, 그냥 버리기엔 아까운 시간들.
+                    <br/> 헤이뷰티를 이용해보세요!
+                    <br/> 지금 당장 피부, 네일, 헤어 시술을 받고 싶어 하는 고객들을 만나 보실 수 있습니다.
+                    <br/> '가격 할인'과 같은 이벤트를 하지 않아도 헤이뷰티를 이용하시면,
+                    <br/> 새로운 손님이 찾아오게 됩니다.</p>
+            </div>
+
+        </div>
+    </section>
+    
+    <section id="custormer_info" class="scrollme  animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">
+        <div class="wrap">
+            <div class="text left">
+                <h2>고객 카드를 모바일에서<br/>확인해 보세요!</h2>
+                <p>종이로 된 고객카드, 원하시는 고객별로 찾아보기 힘드시지 않으셨나요?
+                    <br/>고객카드를 간편하게 모바일에서 화인해 보세요.
+                    <br/> 고객의 구매정보, 이전 관리 내역, 고객 특징들까지!
+                    <br/> 어떤 고객이 자주 이용하고 요즘 들어 뜸해지는 고객들까지 모두 확인해 보세요.
+                    <br/> 고객별 맞춤 메시지를 보내어 고객 관리를 조금 더 정확하게 하실 수 있습니다.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="service" class="gray scrollme  animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">
+        <div class="text">
+            <h2>그 밖의 유용한 서비스</h2>
+            <p>헤이뷰티는 1인 샵에서부터 대규모 샵까지 뷰티살로의 모든 문제를 해결하기 위해 만들어진 서비스입니다.
+                <br/> 주요 기능 외에도 홍보, 직원관리 등 뷰티살롱 운영을 위한 모든 것을 제공하고 있습니다.</p>
+        </div>
+        <div class="service">
+            <div class="col">
+                <div class="facebook-ad animateme" data-from="1" data-to="0" data-easing="easeinout" data-rotatez="360" data-scale="0"></div>
+                <h3> 페이스북 광고</h3>
+                <p>업소 반경 2km 거주 미치 근무하는
+                    <br/> 타겟 연령층 전원에게 페이스북을 통해
+                    <br/> 지역 광고를 대신해드립니다.</p>
+            </div>
+            <div class="col">
+                <div class="review animateme" data-from="1" data-to="0" data-easing="easeinout" data-rotatez="360" data-scale="0"></div>
+                <h3> 직원평가 <span class="soon">준비중</span> </h3>
+                <p>시술/관리 후 돌아가는 고객에게 직원 및
+                    <br/> 시술 평가를 받을 수 있습니다.
+                    <br/>(결과는 사장님만 열람 가능합니다.)</p>
+            </div>
+            <div class="col">
+                <div class="no-shop animateme" data-from="1" data-to="0" data-easing="easeinout" data-rotatez="360" data-scale="0"></div>
+                <h3> 샵이 없어도 가능</h3>
+                <p>오피스텔, 피부관리실, 네일아트,
+                    <br/>방문 마사지, 홈 케어 등 정규 샵이
+                    <br/> 없는 분도 사용 가능합니다.</p>
+            </div>
+        </div>
+    </section>
+    <section class="join_us scrollme">
+        <div class="text animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="50">
+            <h2 class="eng">Join Us Now</h2>
+            <p>지금 가입신청을 하시면 <span class="bold">2015년 동안 무료</span>로 서비스를 이용하실 수 있습니다.
+                <br/> 지금 바로 가입하고 무료로 서비스를 이용해 보세요.</p>
+        </div>
+        <div class="btn animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="30"><a href="http://www.heybeauty.kr/" target="_blank">
+            가입신청</a>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/heybeautykr?fref=ts" target="_blank"><img src="img/facebook.png"></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/heybeauty.kr/" target="_blank"><img src="img/instagram.png"></a>
+            </li>
+        </ul>
+        <p>Copyright © 2015 HeuBeauty. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
