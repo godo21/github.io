@@ -1,6 +1,5 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:600,100);
-
 html,
 body,
 ul,
@@ -61,19 +60,19 @@ span {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 600;
 }
 
 h3 {
     /*    display: inline;*/
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 500px;
 }
 
 p {
     font-weight: 300;
-    font-size: 100%;
+    font-size: 1em;
     margin: 32px auto 0;
     line-height: 1.5em;
 }
@@ -127,11 +126,6 @@ header {
     -moz-transition: all 0.4s ease-in-out;
 }
 
-.bgcolor {
-    background-color: RGB(0, 214, 183);
-    padding: 15px 2% 0 0;
-    height: 40px;
-}
 
 nav {
     max-width: 1366px;
@@ -192,9 +186,6 @@ nav li:hover {
     color: #ffffff;
 }
 
-.main .text {
-    top: 29%;
-}
 
 .main .btn {
     background: url(img/ic_play.png) left no-repeat;
@@ -252,7 +243,7 @@ nav li:hover {
 
 /*-----------section 2----------*/
 #main {
-    height: 105%;
+    height: 100%;
 }
 
 #main .wrap {
@@ -261,14 +252,10 @@ nav li:hover {
     background-size: 80%;
 }
 
-#main .text {
-    width: 50%;
-}
-
 /*------Customer Info-----*/
 
 #custormer_info {
-    height: 105%;
+    height: 100%;
 }
 
 #custormer_info .wrap {
@@ -278,18 +265,11 @@ nav li:hover {
     /*        background-attachment: fixed;*/
 }
 
-#custormer_info .text {
-    left: 4%;
-}
 
 /*----------service info--------*/
 
 #service {
-    height: 85%;
-}
-
-#service .text {
-    top: 15%;
+    height: 100%;
 }
 
 .service {
@@ -301,7 +281,7 @@ nav li:hover {
 }
 
 .col {
-    width: 33%;
+    width: 100%;
     float: left;
     text-align: center;
     box-sizing: border-box;
