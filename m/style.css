@@ -32,12 +32,13 @@ a {
 a:hover {
     color: RGB(0, 214, 183);
 }
-
+h1, h2, h3, p{
+     height: auto;
+}
 h1 {
  
-    font-size: 1.2em;
-    position: relative;
-    
+    font-size: 1em;
+    position: relative;    
     height: auto;
     color: #ffffff;
     text-align: center;
@@ -46,10 +47,7 @@ h1 {
 .sub{
     margin-top:1%; 
 }
-.eng {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
+
 .soon{
     font-size: 12px;
     color: RGB(222, 80, 112);
@@ -60,8 +58,9 @@ span {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: 600;
+    line-height: 1.2em;
 }
 
 h3 {
@@ -69,21 +68,14 @@ h3 {
     font-size: 1.1em;
     font-weight: 500px;
 }
-h4{
-    background-color:  #2C3133;
-    width:  30px;
-    height: 4px;
-    margin: 2% auto;
-}
-.left h4{
-    text-align: left;
-    margin: 2% 0;
-}
+
 p {
+    width: 80%;
     font-weight: 300;
-    font-size: 1em;
-    margin: 32px auto 0;
+    font-size: 0.9em;
+    margin: 10px auto 0;
     line-height: 1.5em;
+    padding: 0 10%;
 }
 
 .btn {
@@ -105,18 +97,6 @@ p {
     color: #ffe965;
 }
 
-.left p,
-.left h2 {
-    text-align: left;
-}
-
-.left {
-    display: block;
-    position: relative;
-    left: 48%;
-    top: 30%;
-}
-
 .gray {
     background-color: #FAFAFA;
 }
@@ -135,11 +115,6 @@ header {
     -moz-transition: all 0.4s ease-in-out;
 }
 
-.bgcolor {
-    background-color: RGB(0, 214, 183);
-    padding: 15px 2% 0 0;
-    height: 40px;
-}
 
 nav {
     max-width: 1366px;
@@ -181,38 +156,49 @@ nav li:hover {
 .logo-img {
     background: url(img/logo-center.png)  center no-repeat;
     background-size: contain;
-    width: 342px;
-    height: 80px;
+    width: 200px;
+    height: 40px;
 
 }
-.line{
-    width: 342px;
+.line {
+    width: 200px;
     height: 1px;
-    background-color: rgba(255,255,255,0.4);
-        margin: 1% auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2% auto;
 }
+.eng {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.eng-con {
+    font-family: 'Open Sans Condensed', sans-serif;
+   letter-spacing: 0.39em;
+    font-size: 1em;
+}
+.main .text{
+    top:30%;
+}
+
 .main {
     /*    position: static;*/
     background: url(img/bg_main_02.png) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
     color: #ffffff;
 }
 
-.main .text {
-    top: 29%;
-}
-
 .main .btn {
-    background: url(img/ic_play.png) left no-repeat;
+
     background-color: #13D5B7;
     position: relative;
-    top: 40%;
-    padding: 10px 0 0 14px;
+    top: 60%;
+    padding: 10px 0 0 0;
     height: 35PX;
-    width: 176px;
-    font-family:
+
+        border-radius:50px;
+
+   
 }
 
 .main .btn:hover {
@@ -223,16 +209,10 @@ nav li:hover {
 .youtube:hover {
     color: #fff;
 }
-.main ul{
-    position: relative;
-    top:20%;
-    height: auto;
-}
+
 .main ul li {
-/*
     position: relative;
     top: 54%;
-*/
     width: 138px;
     height: 46px;
 }
@@ -249,78 +229,8 @@ nav li:hover {
     height: 100%;
     margin: 0 auto;
 }
-/*===========About Us=============*/
-#company{
-    height: 105%;    
-}
-.row{
-    width: 84%;
-    position: relative;
-    top:15%;
-    float: right;;
-    margin-top: 3%;
-    padding: 0 8%;
-}
 
-.row p, .row h3{
-    text-align: left;
 
-}
-.row h3 {
-    width: 60%;
-    padding-left: 30%;
-    margin: auto;
-}
-
-.row p {
-    font-size: 0.92em;
-    line-height: 1.5em;
-    margin-top: 0.5%;
-    width: 60%;
-    padding-left: 30%;
-}
-
-.graphic-1, .graphic-2, .graphic-3{
-    width: 264px;
-   height: 144px;
-    float: left;
-    margin: auto;            
-/* padding: 1%;*/
-    position: relative;
-    text-align: left;
-    padding: 1% 0;
-}
-.graphic-1{
-    background: url(img/logo_theventures.png) center no-repeat;
-    background-size:auto; 
-}
-.graphic-2{
-    background: url(img/logo_theventures.png) center no-repeat;
-    background-size:auto; 
-}
-.graphic-3{
-    background: url(img/img_company_3.png) center no-repeat;
-    background-size:auto; 
-}
-/*-----------Feature---------*/
-#feature{
-    height: 250px;
-    background-color: aquamarine;
-}
-#feature h1{
-    font-size: 2em;
-    position: relative;
-    top: 25%;
-    font-weight: 700;
-}
-#feature p{
-    height: auto;
-    position: relative;
-    top:14%;
-    color: #fff;
-    font-weight: 500;
-    
-}
 /*-----------Reservation----------*/
 
 #reservation {
@@ -329,15 +239,12 @@ nav li:hover {
 
 #reservation .wrap {
     position: relative;
-    height: 120%;
+    height: 100%;
     background: url(img/img_resrvation.png) top center no-repeat;
     background-size: 70%;
 }
 
 /*-----------section 2----------*/
-#main {
-    height: 105%;
-}
 
 #main .wrap {
     height: 100%;
@@ -345,14 +252,10 @@ nav li:hover {
     background-size: 80%;
 }
 
-#main .text {
-    width: 50%;
-}
-
 /*------Customer Info-----*/
 
 #custormer_info {
-    height: 105%;
+    height: 100%;
 }
 
 #custormer_info .wrap {
@@ -362,31 +265,21 @@ nav li:hover {
     /*        background-attachment: fixed;*/
 }
 
-#custormer_info .text {
-    left: 4%;
-    width: 80%;
-}
 
 /*----------service info--------*/
 
-#service {
-    height: 85%;
-}
 
-#service .text {
-    top: 15%;
-}
 
 .service {
     position: relative;
-    top: 25%;
+    top: 15%;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
 }
 
 .col {
-    width: 33%;
+    width: 100%;
     float: left;
     text-align: center;
     box-sizing: border-box;
@@ -397,6 +290,7 @@ h3 {
     position: relative;
     top: 10%;
     margin: 0;
+   
 }
 
 .col p {
@@ -411,12 +305,13 @@ h3 {
 .review,
 .no-shop {
     display: block;
-    max-width: 200px;
-    width: 100%;
+    width: 100px;
     height: 100px;
     position: relative;
-    background-size: 100%;
+    background-size: 80%;
+    background-size: contain;
     margin: 0 auto;
+    top: 5%;
 }
 
 .facebook-ad {
@@ -491,10 +386,4 @@ footer p {
     text-align: center;
     color: #505E63;
     font-size: 12px;
-}
-
-.eng-con {
-    font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.57em;
-    font-size: 1.4em;
 }
