@@ -37,7 +37,7 @@ h1, h2, h3, p{
 }
 h1 {
  
-    font-size: 1.2em;
+    font-size: 1em;
     position: relative;
     
     height: auto;
@@ -62,7 +62,7 @@ span {
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 1.5em;
     font-weight: 600;
 }
 
@@ -75,7 +75,7 @@ h3 {
 p {
     font-weight: 300;
     font-size: 1em;
-    margin: 32px auto 0;
+    margin: 10px auto 0;
     line-height: 1.5em;
 }
 
