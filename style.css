@@ -155,15 +155,15 @@ nav li:hover {
 
 .logo-img {
     background: url(img/logo-center.png)  center no-repeat;
-    background-size: 60%;
-    width: 300px;
+    background-size: contain;
+    width: 200px;
     height: 40px;
 
 }
 .line{
-    width: 46%;
+    width: 200px;
     height: 1px;
-    background-color: rgba(255,255,255,0.4);
+    background-color: rgba(255,255,255,0.2);
         margin: 1% auto;
 }
 .eng {
@@ -177,7 +177,7 @@ nav li:hover {
     font-size: 1em;
 }
 .main .text{
-    top:35%;
+    top:50%;
 }
 
 .main {
@@ -194,7 +194,7 @@ nav li:hover {
 
     background-color: #13D5B7;
     position: relative;
-    top: 40%;
+    top: 30%;
     padding: 15px 4px 0 6px;
     height: 40PX;
     width: 45px;
