@@ -160,11 +160,11 @@ nav li:hover {
     height: 40px;
 
 }
-.line{
+.line {
     width: 200px;
     height: 1px;
-    background-color: rgba(255,255,255,0.2);
-        margin: 1% auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 2% auto;
 }
 .eng {
     font-family: 'Raleway', sans-serif;
@@ -173,11 +173,11 @@ nav li:hover {
 
 .eng-con {
     font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.35em;
+   letter-spacing: 0.39em;
     font-size: 1em;
 }
 .main .text{
-    top:50%;
+    top:30%;
 }
 
 .main {
@@ -185,19 +185,17 @@ nav li:hover {
     background: url(img/bg_main_02.png) center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 100%;
     color: #ffffff;
 }
-
 
 .main .btn {
 
     background-color: #13D5B7;
     position: relative;
-    top: 30%;
-    padding: 15px 4px 0 6px;
-    height: 40PX;
-    width: 45px;
+    top: 60%;
+    padding: 10px 0 0 0;
+    height: 35PX;
+
         border-radius:50px;
 
    
