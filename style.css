@@ -38,8 +38,7 @@ h1, h2, h3, p{
 h1 {
  
     font-size: 1em;
-    position: relative;
-    
+    position: relative;    
     height: auto;
     color: #ffffff;
     text-align: center;
@@ -48,10 +47,7 @@ h1 {
 .sub{
     margin-top:1%; 
 }
-.eng {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-}
+
 .soon{
     font-size: 12px;
     color: RGB(222, 80, 112);
@@ -99,18 +95,6 @@ p {
     font-weight: 500;
     font-size: 110%;
     color: #ffe965;
-}
-
-.left p,
-.left h2 {
-    text-align: left;
-}
-
-.left {
-    display: block;
-    position: relative;
-    left: 48%;
-    top: 30%;
 }
 
 .gray {
@@ -171,17 +155,31 @@ nav li:hover {
 
 .logo-img {
     background: url(img/logo-center.png)  center no-repeat;
-    background-size: contain;
-    width: 342px;
-    height: 80px;
+    background-size: 60%;
+    width: 300px;
+    height: 40px;
 
 }
 .line{
-    width: 342px;
+    width: 46%;
     height: 1px;
     background-color: rgba(255,255,255,0.4);
         margin: 1% auto;
 }
+.eng {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.eng-con {
+    font-family: 'Open Sans Condensed', sans-serif;
+   letter-spacing: 0.35em;
+    font-size: 1em;
+}
+.main .text{
+    top:25%;
+}
+
 .main {
     /*    position: static;*/
     background: url(img/bg_main_02.png) center no-repeat;
@@ -388,10 +386,4 @@ footer p {
     text-align: center;
     color: #505E63;
     font-size: 12px;
-}
-
-.eng-con {
-    font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.57em;
-    font-size: 1.4em;
 }
