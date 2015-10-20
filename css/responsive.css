@@ -6,6 +6,10 @@
     h1, h2{
         font-size: 1.9em;
     }
+    .wrap{
+         min-width: 400px;
+        
+    }
     .main {
 
           background-size: contain top;
