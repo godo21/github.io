@@ -32,7 +32,9 @@ a {
 a:hover {
     color: RGB(0, 214, 183);
 }
-
+h1, h2, h3, p{
+     height: auto;
+}
 h1 {
  
     font-size: 1.2em;
@@ -236,15 +238,12 @@ nav li:hover {
 
 #reservation .wrap {
     position: relative;
-    height: 120%;
+    height: 100%;
     background: url(img/img_resrvation.png) top center no-repeat;
     background-size: 70%;
 }
 
 /*-----------section 2----------*/
-#main {
-    height: 100%;
-}
 
 #main .wrap {
     height: 100%;
@@ -268,13 +267,11 @@ nav li:hover {
 
 /*----------service info--------*/
 
-#service {
-    height: 100%;
-}
+
 
 .service {
     position: relative;
-    top: 25%;
+    top: 15%;
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -292,6 +289,7 @@ h3 {
     position: relative;
     top: 10%;
     margin: 0;
+   
 }
 
 .col p {
@@ -306,12 +304,13 @@ h3 {
 .review,
 .no-shop {
     display: block;
-    max-width: 200px;
-    width: 100%;
+    width: 100px;
     height: 100px;
     position: relative;
-    background-size: 100%;
+    background-size: 80%;
+    background-size: contain;
     margin: 0 auto;
+    top: 5%;
 }
 
 .facebook-ad {
