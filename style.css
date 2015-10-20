@@ -191,14 +191,16 @@ nav li:hover {
 
 
 .main .btn {
-    background: url(img/ic_play.png) left no-repeat;
+
     background-color: #13D5B7;
     position: relative;
     top: 40%;
-    padding: 10px 0 0 14px;
+    padding: 10px 10px 0 0;
     height: 35PX;
-    width: 176px;
-    font-family:
+    width: 35px;
+        border-radius: 25px;
+
+   
 }
 
 .main .btn:hover {
