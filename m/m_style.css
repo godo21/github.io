@@ -193,6 +193,7 @@ nav li:hover {
     font-family: 'Open Sans Condensed', sans-serif;
    letter-spacing: 0.33em;
     font-size: 1em;
+    text-align: center;
 }
 .main .text{
      position: absolute;
