@@ -101,6 +101,11 @@ p {
     background-color: #FAFAFA;
 }
 
+.bgcolor {
+    background-color: RGB(0, 214, 183);
+    padding: 15px 2% 0 0;
+    height: 40px;
+}
 /*------------End common------------*/
 
 header {
@@ -182,11 +187,10 @@ nav li:hover {
 
 .main {
     /*    position: static;*/
-    height: 100%;
-    background: url(img/bg_main_02.png) top center no-repeat;
-    background-size: scroll;
-    background-attachment: fixed;
+    background: url(img/bg_main_02.png) top left no-repeat fixed; 
+    background-size: cover;
     color: #ffffff;
+    background-position:60% 0%;
 }
 
 .main .btn {
@@ -392,8 +396,8 @@ h3 {
 .join_us {
     height: 409px;
     background: url(img/bg_join_us_2.png) center no-repeat;
-    background-size: scroll;
-    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 .join_us h2,

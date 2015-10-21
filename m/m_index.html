@@ -27,6 +27,18 @@
                 innerHeight: 390
             });
         });
+                $(document).on("scroll", function () {
+            if ($(document).scrollTop() > 650) {
+                $("header").addClass("bgcolor");
+
+                updateSliderMargin();
+            } else {
+                $("header").removeClass("bgcolor");
+
+                updateSliderMargin();
+            }
+
+        });
     </script>
     <!--Header-->
     <link rel="stylesheet" href="colorbox.css" />
