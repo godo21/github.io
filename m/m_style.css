@@ -192,7 +192,8 @@ nav li:hover {
 .eng-con {
     width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: 0.33em;
+    letter-spacing: 0.34em;
+     margin-left: 1%;
     font-size: 1em;
     text-align: center;
 }
