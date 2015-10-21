@@ -308,9 +308,9 @@ nav li:hover {
     width: 100%;
     height: 144px;
     margin: auto;
-    /* padding: 1%;*/
   position: inherit;
-    padding: 1% 0;
+    padding: 2% 0;
+    background-size: contain;
 }
 
 .graphic-1 {
