@@ -340,15 +340,17 @@ nav li:hover {
     font-size: 2em;
     position:relative;
     top: 23%;
-    font-weight: 700;
+    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+
 }
 
 #feature p {
     height: auto;
     position: relative;
-    top: 15%;
+    top: 19%;
     color: #fff;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
