@@ -13,18 +13,19 @@
     <script src="js/jquery.panelSnap.js"></script>
         <script type="text/javascript">
     var filter = "win16|win32|win64|macintel|mac";
- 
-    if( navigator.platform  ){
-        if( filter.indexOf(navigator.platform.toLowerCase())<0 ){
 
-location.href='m/m_index.html';
+    if (navigator.platform) {
+        if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
 
-        }else{
+            location.href = 'm/m_index.html';
+
+        } else {
 
         }
     }
-    </script>
+</script>
     <script>
+$(document).ready(function(){
 
             $(".youtube").colorbox({
                 iframe: true,
@@ -58,7 +59,7 @@ location.href='m/m_index.html';
     <header>
 
         <nav>
-          <h1 class=" logo-header"
+          <h1 class="logo-header"
           ></h1>
             <ul class="menu">
     <li><a href="#company">About Us</a></li>
@@ -79,7 +80,7 @@ location.href='m/m_index.html';
                 <h1 class="sub">모바일 뷰티예약 서비스</h1>
             </div>
             <div class="btn"><a class="youtube" href="https://www.youtube.com/embed/eYJoQVZFC0o">WATCH VIDEO</a></div>
-                             <p style="font-weight:700; height:auto; margin-top:44%;"><a href="http://www.heybeauty.kr/" target="_blank">가입신청하러가기 ➞</a></p>
+                             <p class="go-link"><a href="http://www.heybeauty.kr/" target="_blank">가입신청하러가기 ➞</a></p>
             <ul>
                 <li><img src="img/img_app_store.png"></li>
                 <li><img src="img/img_google_play.png"></li>
@@ -88,8 +89,8 @@ location.href='m/m_index.html';
 
         </div>
     </section>
-    <section id="company">
-       <div class="wrap">
+    <section id="company" class="scrollme">
+       <div class="wrap animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">
            <div class="text">
               <h4>    </h4>
                <h2>ABOUT US</h2>
@@ -119,7 +120,7 @@ location.href='m/m_index.html';
     <section id="feature">
 <h1>Feature</h1>
 <p>헤이뷰티만의 특별한 서비스를 확인해보세요</p>
-<p style="font-weight:700; margin-top:2%;"><a href="http://www.heybeauty.kr/" target="_blank">가입신청하러가기 ➞</a></p>
+<p  style="font-weight:700; margin-top:2%;"><a href="http://www.heybeauty.kr/" target="_blank">가입신청하러가기 ➞</a></p>
         
     </section>
     <section id="reservation" class="scrollme animateme" data-when="enter" data-from="1" data-to="0" data-easing="easeinout" data-opacity="0" data-translatey="200">

@@ -34,27 +34,29 @@ a:hover {
 }
 
 h1 {
- 
     font-size: 1.2em;
     position: relative;
-    
     height: auto;
     color: #ffffff;
     text-align: center;
     font-weight: 200;
 }
-.sub{
-    margin-top:1%; 
+
+.sub {
+    margin-top: 1%;
 }
+
 .eng {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
-.soon{
+
+.soon {
     font-size: 12px;
     color: RGB(222, 80, 112);
     font-weight: 600;
 }
+
 span {
     font-weight: 100;
 }
@@ -69,16 +71,19 @@ h3 {
     font-size: 1.1em;
     font-weight: 500px;
 }
-h4{
-    background-color:  #2C3133;
-    width:  30px;
+
+h4 {
+    background-color: #2C3133;
+    width: 30px;
     height: 4px;
     margin: 2% auto;
 }
-.left h4{
+
+.left h4 {
     text-align: left;
     margin: 2% 0;
 }
+
 p {
     font-weight: 300;
     font-size: 1em;
@@ -121,6 +126,7 @@ p {
     background-color: #FAFAFA;
 }
 
+
 /*------------End common------------*/
 
 header {
@@ -129,7 +135,6 @@ header {
     z-index: 10;
     position: fixed;
     padding: 25px 2% 0 0;
-
     background-color: rgba(255, 255, 255, 0);
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in-out;
@@ -145,24 +150,19 @@ nav {
     max-width: 1366px;
     margin: auto;
     overflow: hidden;
-
     background: url(img/icon.png) left no-repeat;
-background-size: contain;
-
-   
+    background-size: contain;
 }
 
 nav ul {
     /*    width: 60%;*/
     position: relative;
     text-align: right;
-
 }
 
 nav li {
     position: relative;
     display: inline;
-
     padding: 0 20px;
     margin: 0 10px;
     color: #ffffff;
@@ -176,21 +176,23 @@ nav li:hover {
     -moz-transition: all 0.4s ease-in-out;
 }
 
+
 /*=======================*/
 
 .logo-img {
-    background: url(img/logo-center.png)  center no-repeat;
+    background: url(img/logo-center.png) center no-repeat;
     background-size: contain;
     width: 342px;
     height: 80px;
-
 }
-.line{
+
+.line {
     width: 342px;
     height: 1px;
-    background-color: rgba(255,255,255,0.4);
-        margin: 1% auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 1% auto;
 }
+
 .main {
     /*    position: static;*/
     background: url(img/bg_main_02.png) center no-repeat;
@@ -201,18 +203,21 @@ nav li:hover {
 }
 
 .main .text {
+    position: inherit;
     top: 29%;
 }
 
 .main .btn {
+    text-align: center;
     background: url(img/ic_play.png) left no-repeat;
     background-color: #13D5B7;
-    position: relative;
+    position: inherit;
     top: 40%;
-    padding: 10px 0 0 14px;
-    height: 35PX;
+    padding: 13px 0 0 14px;
+    height: 32PX;
     width: 176px;
-    font-family:
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
 }
 
 .main .btn:hover {
@@ -223,13 +228,15 @@ nav li:hover {
 .youtube:hover {
     color: #fff;
 }
-.main ul{
-    position: relative;
-    top:0;
+
+.main ul {
+    position: absolute;
+    bottom: 1%;
     height: auto;
 }
+
 .main ul li {
-/*
+    /*
     position: relative;
     top: 54%;
 */
@@ -242,6 +249,18 @@ nav li:hover {
     margin: 10px;
 }
 
+.main .wrap {
+    max-height: 729px;
+    margin: auto;
+}
+
+.go-link {
+    position: absolute;
+    font-weight: 700;
+    height: auto;
+    bottom: 17%;
+}
+
 .wrap {
     position: relative;
     max-width: 1200px;
@@ -249,23 +268,29 @@ nav li:hover {
     height: 100%;
     margin: 0 auto;
 }
+
+
 /*===========About Us=============*/
-#company{
-    height: 105%;    
+
+#company {
+    height: 125%;
 }
-.row{
+
+.row {
     width: 84%;
     position: relative;
-    top:15%;
-    float: right;;
+    top: 15%;
+    float: right;
+    ;
     margin-top: 3%;
     padding: 0 8%;
 }
 
-.row p, .row h3{
+.row p,
+.row h3 {
     text-align: left;
-
 }
+
 .row h3 {
     width: 60%;
     padding-left: 30%;
@@ -280,47 +305,58 @@ nav li:hover {
     padding-left: 30%;
 }
 
-.graphic-1, .graphic-2, .graphic-3{
+.graphic-1,
+.graphic-2,
+.graphic-3 {
     width: 264px;
-   height: 144px;
+    height: 144px;
     float: left;
-    margin: auto;            
-/* padding: 1%;*/
+    margin: auto;
+    /* padding: 1%;*/
     position: relative;
     text-align: left;
     padding: 1% 0;
 }
-.graphic-1{
+
+.graphic-1 {
     background: url(img/logo_theventures.png) center no-repeat;
-    background-size:auto; 
+    background-size: auto;
 }
-.graphic-2{
+
+.graphic-2 {
     background: url(img/logo_theventures.png) center no-repeat;
-    background-size:auto; 
+    background-size: auto;
 }
-.graphic-3{
+
+.graphic-3 {
     background: url(img/img_company_3.png) center no-repeat;
-    background-size:auto; 
+    background-size: auto;
 }
+
+
 /*-----------Feature---------*/
-#feature{
+
+#feature {
     height: 250px;
     background-color: aquamarine;
 }
-#feature h1{
+
+#feature h1 {
     font-size: 2em;
     position: relative;
     top: 25%;
     font-weight: 700;
 }
-#feature p{
+
+#feature p {
     height: auto;
     position: relative;
-    top:14%;
+    top: 14%;
     color: #fff;
     font-weight: 500;
-    
 }
+
+
 /*-----------Reservation----------*/
 
 #reservation {
@@ -334,7 +370,9 @@ nav li:hover {
     background-size: 70%;
 }
 
+
 /*-----------section 2----------*/
+
 #main {
     height: 105%;
 }
@@ -348,6 +386,7 @@ nav li:hover {
 #main .text {
     width: 50%;
 }
+
 
 /*------Customer Info-----*/
 
@@ -366,6 +405,7 @@ nav li:hover {
     left: 4%;
     width: 80%;
 }
+
 
 /*----------service info--------*/
 
@@ -431,6 +471,7 @@ h3 {
     background: url(img/img_shop.png) top center no-repeat;
 }
 
+
 /*-----------Join Us------------*/
 
 .join_us {
@@ -464,10 +505,13 @@ h3 {
 .join_us .btn a {
     color: #3ADFC4;
 }
-.join_us .btn:hover{
-    background-color: rgba(255, 255, 255,0.9);
+
+.join_us .btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
     color: aliceblue;
 }
+
+
 /*-----------Footer---------------*/
 
 footer {
@@ -495,6 +539,12 @@ footer p {
 
 .eng-con {
     font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.57em;
+    letter-spacing: 0.57em;
     font-size: 1.4em;
+}
+
+@media all and (max-width: 1920px) {}
+    .main .wrap{
+        max-height: 1080px;
+    }
 }
