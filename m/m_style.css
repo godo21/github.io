@@ -330,7 +330,9 @@ nav li:hover {
 #feature {
     height: 30%;
  background: url(img/bg_feature.png) center no-repeat scroll;
-     background-size: 70%;
+     background-size: cover;
+            background-position:60% 0%;
+
     background-color: RGB(36, 54, 60);
 }
 
