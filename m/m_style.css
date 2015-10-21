@@ -523,14 +523,23 @@ footer p {
     
     width: 100%;
     height: 74%;
-}
-  
-    
     .swiper-pagination-bullet {
         background-color: #fff;
         width: 3%;
-        height: 4%;
-        opacity: 1;
+        height: 10%;
+    }
+.swiper-pagination-bullet-active {
+    background: #E5001B;
+    opacity: 1;
+}
+
+}
+  
+    
+.swiper-pagination-bullet {
+        background-color: #fff;
+        width: 3%;
+        height: 10%;
     }
 .swiper-pagination-bullet-active {
     background: #E5001B;
