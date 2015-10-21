@@ -32,27 +32,33 @@ a {
 a:hover {
     color: RGB(0, 214, 183);
 }
-h1, h2, h3, p{
-     height: auto;
+
+h1,
+h2,
+h3,
+p {
+    height: auto;
 }
+
 h1 {
- 
     font-size: 1em;
-    position: relative;    
+    position: relative;
     height: auto;
     color: #ffffff;
     text-align: center;
     font-weight: 200;
 }
-.sub{
-    margin-top:1%; 
+
+.sub {
+    margin-top: 1%;
 }
 
-.soon{
+.soon {
     font-size: 12px;
     color: RGB(222, 80, 112);
     font-weight: 600;
 }
+
 span {
     font-weight: 100;
 }
@@ -69,6 +75,7 @@ h3 {
     font-size: 1.1em;
     font-weight: 500px;
 }
+
 h4 {
     background-color: RGB(0, 214, 183);
     width: 30px;
@@ -113,6 +120,8 @@ p {
     padding: 15px 2% 0 0;
     height: 40px;
 }
+
+
 /*------------End common------------*/
 
 header {
@@ -121,42 +130,36 @@ header {
     position: fixed;
     z-index: 10;
     padding: 4% 2% 0 0;
-/*    background-color: rgb(255, 255, 255);*/
-    -webkit-transition: all 0.4s ease-in;
-    -moz-transition: all 0.4s ease-in-out;
 }
-
 
 nav {
     margin: auto;
     overflow: hidden;
-
     background: url(img/icon.png) left no-repeat;
-background-size: contain;
-
-   
+    background-size: contain;
 }
 
 nav ul {
     /*    width: 60%;*/
     position: relative;
     text-align: right;
-
 }
 
 nav li {
     position: relative;
     display: inline;
-   font-size: 0.9em;
+    font-size: 0.9em;
     padding: 0 12px;
     margin: 0 10px;
     color: #ffffff;
-    background-color: rgba(0, 214, 183,1);
-font-weight: 600;
+    background-color: rgba(0, 214, 183, 1);
+    font-weight: 600;
     border-radius: 22px;
     -webkit-transition: all 0.4s ease-in;
     -moz-transition: all 0.4s ease-in-out;
 }
+
+
 /*
 
 nav li:hover {
@@ -168,21 +171,23 @@ nav li:hover {
 }
 */
 
+
 /*=======================*/
 
 .logo-img {
-    background: url(img/logo-center.png)  center no-repeat;
+    background: url(img/logo-center.png) center no-repeat;
     background-size: contain;
     width: 200px;
     height: 40px;
-
 }
+
 .line {
     width: 200px;
     height: 1px;
     background-color: rgba(255, 255, 255, 0.2);
     margin: 2% auto;
 }
+
 .eng {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
@@ -191,39 +196,35 @@ nav li:hover {
 .eng-con {
     width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.33em;
+    letter-spacing: 0.33em;
     font-size: 1em;
     text-align: center;
 }
-.main .text{
-     position: absolute;
 
-    left:25%;
+.main .text {
+    position: absolute;
+    left: 25%;
     right: 25%;
-    top:33%;
+    top: 33%;
 }
 
 .main {
     /*    position: static;*/
-    background: url(img/bg_main_02.png) top left no-repeat scroll; 
+    background: url(img/bg_main_02.png) top left no-repeat scroll;
     background-size: cover;
     color: #ffffff;
-    background-position:60% 0%;
+    background-position: 60% 0%;
 }
 
 .main .btn {
-
     background-color: #13D5B7;
     position: absolute;
     top: 60%;
-    left:25%;
+    left: 25%;
     right: 25%;
     padding: 10px 0 0 0;
     height: 35PX;
-
-        border-radius:50px;
-
-   
+    border-radius: 50px;
 }
 
 .main .btn:hover {
@@ -234,13 +235,14 @@ nav li:hover {
 .youtube:hover {
     color: #fff;
 }
-.main ul{
-     position: absolute;
+
+.main ul {
+    position: absolute;
     bottom: 6%;
     height: auto;
 }
+
 .main ul li {
-   
     width: 138px;
     height: 46px;
 }
@@ -258,11 +260,13 @@ nav li:hover {
     margin: 0 auto;
 }
 
+
 /*===========About Us=============*/
 
 #company {
     height: 100%;
 }
+
 
 /*
 .row {
@@ -286,6 +290,7 @@ nav li:hover {
     width: 60%;
 }
 */
+
 .info {
     position: absolute;
     top: 10%;
@@ -303,13 +308,14 @@ nav li:hover {
     line-height: 1.5em;
     top: 2%;
 }
+
 .graphic-1,
 .graphic-2,
 .graphic-3 {
     width: 100%;
     height: 144px;
     margin: auto;
-  position: inherit;
+    position: inherit;
     padding: 2% 0;
     background-size: contain;
 }
@@ -328,23 +334,24 @@ nav li:hover {
     background: url(img/img_company_3.png) center no-repeat;
     background-size: auto;
 }
+
+
 /*-----------feature----------*/
+
 #feature {
     height: 30%;
- background: url(img/bg_feature.png) center no-repeat scroll;
-     background-size: cover;
-            background-position:60% 0%;
-
+    background: url(img/bg_feature.png) center no-repeat scroll;
+    background-size: cover;
+    background-position: 60% 0%;
     background-color: RGB(36, 54, 60);
 }
 
 #feature h1 {
     font-size: 2em;
-    position:relative;
+    position: relative;
     top: 23%;
     font-weight: 800;
-        font-family: 'Raleway', sans-serif;
-
+    font-family: 'Raleway', sans-serif;
 }
 
 #feature p {
@@ -365,44 +372,43 @@ nav li:hover {
 #reservation .wrap {
     position: relative;
     height: 100%;
-    background: url(img/img_resrvation.png)  center no-repeat;
+    background: url(img/img_resrvation.png) center no-repeat;
     background-size: 120%;
 }
+
 
 /*-----------section 2----------*/
 
 #main .wrap {
     background: url(img/img_app_main_list.png) bottom center no-repeat;
     background-size: 70%;
-/*    background-position: 50% 40%;*/
+    /*    background-position: 50% 40%;*/
 }
+
 
 /*------Customer Info-----*/
 
-#custormer_info{
-    
-}
+#custormer_info {}
+
 #custormer_info .wrap {
     background: url(img/img_app_info_customer.png) bottom center no-repeat;
     background-size: 70%;
-/*    background-position: 50% 150%;*/
-}
-    /*        background-attachment: fixed;*/
+    /*    background-position: 50% 150%;*/
 }
 
+
+/*        background-attachment: fixed;*/
+
+
+}
 
 /*----------service info--------*/
-
-
-
 #service {
     height: 80%;
 }
-
 #service .text {
     top: 11%;
 }
-
 .service {
     position: inherit;
     top: 22%;
@@ -410,71 +416,58 @@ nav li:hover {
     width: 100%;
     height: 50%;
 }
-#service .swiper-container {    
+#service .swiper-container {
     width: 100%;
     height: 50%;
 }
-  
 .col {
     width: 100%;
     text-align: center;
 }
-
 h3 {
     position: relative;
     top: 10%;
     margin: 0;
-   
 }
-
 .col p {
-
     position: relative;
     top: 12%;
     margin: 0;
     height: auto;
 }
-
 .facebook-ad,
 .review,
-.no-shop{ 
+.no-shop {
     width: 100px;
     height: 100px;
     background-size: 100%;
     margin: 0 auto;
 }
-
 .facebook-ad {
     background: url(img/img_facebook.png) top center no-repeat;
 }
-
 .review {
     background: url(img/img_review.png) top center no-repeat;
 }
-
 .no-shop {
     background: url(img/img_shop.png) top center no-repeat;
 }
 
 /*-----------Join Us------------*/
-
 .join_us {
     height: 80%;
     background: url(img/bg_join_us_2.png) center no-repeat scroll;
     background-size: cover;
-        background-position:60% 0%;
+    background-position: 60% 0%;
 }
-
 .join_us h2,
 .join_us p {
     color: #ffffff;
 }
-
 .join_us .text {
     position: relative;
     top: 30%;
 }
-
 .join_us .btn {
     position: relative;
     top: 35%;
@@ -485,29 +478,27 @@ h3 {
     font-size: 18px;
     color: #3ADFC4;
 }
-
 .join_us .btn a {
     color: #3ADFC4;
 }
-.join_us .btn:hover{
-    background-color: rgba(255, 255, 255,0.9);
+.join_us .btn:hover {
+    background-color: rgba(255, 255, 255, 0.9);
     color: aliceblue;
 }
-/*-----------Footer---------------*/
 
+/*-----------Footer---------------*/
 footer {
-    height: 20%;;
+    height: 20%;
+    ;
     background-color: #25363C;
     text-align: center;
 }
-
 footer ul li {
     display: inline;
     position: relative;
     top: 24%;
     margin: 0 20px;
 }
-
 footer p {
     margin: auto;
     height: auto;
@@ -517,19 +508,17 @@ footer p {
     color: #505E63;
     font-size: 12px;
 }
-/*-----------------------*/
 
+/*-----------------------*/
 .swiper-container {
     width: 100%;
     height: 73%;
 }
-
 .swiper-pagination-bullet {
     background-color: #fff;
     width: 3%;
     height: 10%;
 }
-
 .swiper-pagination-bullet-active {
     background: #E5001B;
     opacity: 1;
