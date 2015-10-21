@@ -339,6 +339,8 @@ nav li:hover {
 #feature {
     height: 250px;
     background-color: aquamarine;
+    background: url(img/bg_feature.png) center no-repeat fixed;
+    background-size: cover;
 }
 
 #feature h1 {
