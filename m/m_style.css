@@ -190,12 +190,17 @@ nav li:hover {
 }
 
 .eng-con {
+    width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
-   letter-spacing: 0.39em;
+   letter-spacing: 0.37em;
     font-size: 1em;
 }
 .main .text{
-    top:30%;
+     position: absolute;
+
+    left:25%;
+    right: 25%;
+    top:33%;
 }
 
 .main {
@@ -209,8 +214,10 @@ nav li:hover {
 .main .btn {
 
     background-color: #13D5B7;
-    position: relative;
+    position: absolute;
     top: 60%;
+    left:25%;
+    right: 25%;
     padding: 10px 0 0 0;
     height: 35PX;
 
@@ -227,10 +234,13 @@ nav li:hover {
 .youtube:hover {
     color: #fff;
 }
-
+.main ul{
+     position: absolute;
+    bottom: 6%;
+    height: auto;
+}
 .main ul li {
-    position: relative;
-    top: 54%;
+   
     width: 138px;
     height: 46px;
 }
@@ -354,23 +364,20 @@ nav li:hover {
 /*-----------section 2----------*/
 
 #main .wrap {
-    height: 100%;
     background: url(img/img_app_main_list.png) bottom center no-repeat;
     background-size: 70%;
-    background-position: 50% 150%;
+/*    background-position: 50% 40%;*/
 }
 
 /*------Customer Info-----*/
 
-#custormer_info {
-    height: 100%;
+#custormer_info{
+    
 }
-
 #custormer_info .wrap {
-    height: 100%;
     background: url(img/img_app_info_customer.png) bottom center no-repeat;
     background-size: 70%;
-    background-position: 50% 150%;
+/*    background-position: 50% 150%;*/
 }
     /*        background-attachment: fixed;*/
 }
@@ -395,8 +402,7 @@ nav li:hover {
     width: 100%;
     height: 50%;
 }
-#service .swiper-container {
-    
+#service .swiper-container {    
     width: 100%;
     height: 50%;
 }
