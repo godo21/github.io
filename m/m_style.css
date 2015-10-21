@@ -68,14 +68,20 @@ h3 {
     font-size: 1.1em;
     font-weight: 500px;
 }
+h4 {
+    background-color: RGB(0, 214, 183);
+    width: 30px;
+    height: 4px;
+    margin: 2% auto;
+}
 
 p {
-    width: 60%;
+    width: 80%;
     font-weight: 300;
     font-size: 0.9em;
     margin: 10px auto 0;
     line-height: 1.5em;
-    padding: 0 20%;
+    padding: 0 10%;
 }
 
 .btn {
@@ -296,6 +302,27 @@ nav li:hover {
     background: url(img/img_company_3.png) center no-repeat;
     background-size: auto;
 }
+/*-----------feature----------*/
+#feature {
+    height: 30%;
+    background-color: aquamarine;
+}
+
+#feature h1 {
+    font-size: 2em;
+    position:relative;
+    top: 23%;
+    font-weight: 700;
+}
+
+#feature p {
+    height: auto;
+    position: relative;
+    top: 15%;
+    color: #fff;
+    font-weight: 500;
+}
+
 
 /*-----------Reservation----------*/
 
@@ -362,7 +389,7 @@ h3 {
 .col p {
 
     position: relative;
-    /*    display: inline;*/
+
     top: 10%;
     margin: 0;
     height: auto;
@@ -394,7 +421,7 @@ h3 {
 /*-----------Join Us------------*/
 
 .join_us {
-    height: 409px;
+    height: 80%;
     background: url(img/bg_join_us_2.png) center no-repeat scroll;
     background-size: cover;
         background-position:60% 0%;
@@ -407,7 +434,7 @@ h3 {
 
 .join_us .text {
     position: relative;
-    top: 25%;
+    top: 30%;
 }
 
 .join_us .btn {
@@ -431,7 +458,7 @@ h3 {
 /*-----------Footer---------------*/
 
 footer {
-    height: 140px;
+    height: 20%;;
     background-color: #25363C;
     text-align: center;
 }
@@ -463,7 +490,7 @@ footer p {
     .swiper-pagination-bullet {
         background-color: #fff;
         width: 3%;
-        height: 13%;
+        height: 5%;
         opacity: 1;
     }
 .swiper-pagination-bullet-active {
