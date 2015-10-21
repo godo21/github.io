@@ -187,7 +187,7 @@ nav li:hover {
 
 .main {
     /*    position: static;*/
-    background: url(img/bg_main_02.png) top left no-repeat fixed; 
+    background: url(img/bg_main_02.png) top left no-repeat scroll; 
     background-size: cover;
     color: #ffffff;
     background-position:60% 0%;
@@ -395,7 +395,7 @@ h3 {
 
 .join_us {
     height: 409px;
-    background: url(img/bg_join_us_2.png) center no-repeat fixed;
+    background: url(img/bg_join_us_2.png) center no-repeat scroll;
     background-size: cover;
         background-position:60% 0%;
 }
@@ -461,11 +461,11 @@ footer p {
   
     
     .swiper-pagination-bullet {
-    background-color: #fff;
-    width: 3%;
-    height: 13%;
-    opacity: 1;
-}
+        background-color: #fff;
+        width: 3%;
+        height: 13%;
+        opacity: 1;
+    }
 .swiper-pagination-bullet-active {
     background: #E5001B;
     opacity: 1;
