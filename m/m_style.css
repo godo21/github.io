@@ -183,7 +183,7 @@ nav li:hover {
 .main {
     /*    position: static;*/
     background: url(img/bg_main_02.png) center no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
     color: #ffffff;
 }
