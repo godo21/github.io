@@ -395,9 +395,9 @@ h3 {
 
 .join_us {
     height: 409px;
-    background: url(img/bg_join_us_2.png) center no-repeat;
+    background: url(img/bg_join_us_2.png) center no-repeat fixed;
     background-size: cover;
-    background-attachment: scroll;
+        background-position:60% 0%;
 }
 
 .join_us h2,
