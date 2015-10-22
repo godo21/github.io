@@ -264,10 +264,12 @@ nav li:hover {
 .main ul li {
     width: 138px;
     height: 46px;
+    background-size: contain;
 }
 
 .main li {
-    display: inline;
+    
+    display: inline-block;
     margin: 10px;
 }
 
@@ -278,8 +280,16 @@ nav li:hover {
     height: 100%;
     margin: 0 auto;
 }
-
-
+.go-to-appstore{
+     width: 138px;
+    height: 46px;
+    background: url(img/img_app_store.png) center no-repeat;
+}
+.go-to-google{
+     width: 138px;
+    height: 46px;
+    background: url(img/img_google_play.png) center no-repeat;
+}
 /*===========About Us=============*/
 
 #company {
