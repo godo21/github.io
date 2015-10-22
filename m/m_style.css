@@ -112,7 +112,7 @@ p {
 .btn {
     margin: auto;
     border-radius: 22px;
-    width: 190px;
+    width: 160px;
     height: 45px;
     text-align: center;
 }
@@ -480,11 +480,11 @@ nav li:hover {
 }
 .join_us .text {
     position: relative;
-    top: 30%;
+    top: 25%;
 }
 .join_us .btn {
     position: relative;
-    top: 35%;
+    top: 34%;
     background-color: rgb(255, 255, 255);
     padding: 8px 0 0 0;
     height: 37px;
@@ -525,12 +525,3 @@ nav li:hover {
     font-size: 12px;
 }
 
-/*-----------------------*/
-
-
-/*
-.swiper-pagination{
-    width: inherit;
-    position: relative;
-    
-}*/
