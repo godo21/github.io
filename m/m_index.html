@@ -14,31 +14,32 @@
     <!-------ScrollAnimation------->
     <script>
         $(document).ready(function () {
-            var mySwiper = new Swiper('.swiper-container', {
+             var mySwiper1 = new Swiper('.s1', {
+                // Optional parameters
+                direction: 'vertical',
+                loop: false,
+   pagination: '.swiper-pagination',
+            });
+            var mySwiper2 = new Swiper('.s2', {
                 // Optional parameters
                 direction: 'horizontal',
                 loop: true,
-                pagination: '.swiper-pagination'
 
-            })
+            });
+                    var mySwiper3 = new Swiper('.s3', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+            });
+                          
             $(".youtube").colorbox({
                 iframe: true,
                 innerWidth: 320,
                 innerHeight: 195
             });
         });
-//                $(document).on("scroll", function () {
-//            if ($(document).scrollTop() > 650) {
-//                $("header").addClass("bgcolor");
-//
-//                updateSliderMargin();
-//            } else {
-//                $("header").removeClass("bgcolor");
-//
-//                updateSliderMargin();
-//            }
-//
-//        });
+
     </script>
     <!--Header-->
     <link rel="stylesheet" href="colorbox.css" />
@@ -48,8 +49,7 @@
 </head>
 
 <body>
-    <header>
-
+<header>
   <nav>
     <h1 class="logo-header"></h1>
     <ul class="menu">
@@ -57,9 +57,10 @@
         
     </ul>
 </nav>
-
     </header>
-    <section class="main">
+    <div class="swiper-container s1">
+    <div class="swiper-wrapper">
+    <section class="main swiper-slide">
         <div class="wrap">
 
             <div class="text">
@@ -90,111 +91,142 @@
 
     </section>
 -->
-    <section id="reservation">
-        <div class="wrap">
-            <div class="text">
-               <h4>    </h4>
-                <h2>전화통화 없이 예약하세요</h2>
-                <p>헤이뷰티는 고객과 뷰티살롱이 모두 부담이 되는 <br />전화통화 방식에서 벗어나서 뷰티살롱의 빈 시간을 <br />일정표에서 보고 직접 선택하는 서비스입니다.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="main" class="gray">
-        <div class="wrap">
-            <div class="text">
-               <h4>    </h4>
-                <h2>새로운 손님을 찾으시나요?</h2>
-                <p>손님이 없는 시간, 그냥 버리기엔 아까운 시간들.<br /> 헤이뷰티를 이용해보세요! 지금 당장 피부, 네일,<br /> 헤어 시술을 받고 싶어 하는 고객들을 만나 보실 수 있습니다. <br />'가격 할인'과 같은 이벤트를 하지 않아도 헤이뷰티를<br /> 이용하시면, 새로운 손님이 찾아오게 됩니다.</p>
-            </div>
-
-        </div>
-    </section>
-
-    <section id="custormer_info">
-        <div class="wrap">
-            <div class="text">
-               <h4>    </h4>
-                <h2>고객 카드가 모바일로 쏙!</h2>
-                <p>고객카드를 간편하게 모바일에서 확인해 보세요. <br />고객의 구매정보, 이전 관리 내역, 고객 특징들까지! <br />자주 이용하는 고객과 요즘 들어 뜸해지는 고객들까지 <br />모두 확인해 보세요.
-                    고객별 맞춤 메시지를 보내어<br /> 고객 관리를 조금 더 정확하게 하실 수 있습니다.</p>
-            </div>
-        </div>
-    </section>
-    <section id="service" class="gray">
+<section id="reservation" class="swiper-slide">
+    <div class="wrap">
         <div class="text">
-           <h4>    </h4>
-            <h2>그 밖의 유용한 서비스</h2>
-            <p>헤이뷰티는 뷰티살롱의 모든 문제를 해결하기 위해<br/> 만들어진 서비스입니다. </p>
+            <h4>    </h4>
+            <h2>전화통화 없이 예약하세요</h2>
+            <p>헤이뷰티는 고객과 뷰티살롱이 모두 부담이 되는
+                <br />전화통화 방식에서 벗어나서 뷰티살롱의 빈 시간을
+                <br />일정표에서 보고 직접 선택하는 서비스입니다.</p>
         </div>
-        <div class="service swiper-container">
-            <div class="swiper-wrapper">
-                <div class="col swiper-slide">
-                    <div class="facebook-ad"></div>
-                    <h3> 페이스북 광고</h3>
-                    <p>업소 반경 2km 거주 또는 근무하는
-                        <br/> 타겟 연령층 전원에게 페이스북을 통해
-                        <br/> 지역 광고를 대신해드립니다.</p>
-                </div>
-                <div class="col swiper-slide">
-                    <div class="review"></div>
-                    <h3> 직원평가 <span class="soon">준비중</span> </h3>
-                    <p>시술/관리 후 돌아가는 고객에게 직원 및 <br/>
-                      시술 평가를 받을 수 있습니다.
-                        <br/>(결과는 사장님만 열람 가능합니다.)</p>
-                </div>
-                <div class="col swiper-slide">
-                    <div class="no-shop"></div>
-                    <h3> 샵이 없어도 가능</h3>
-                    <p>오피스텔, 피부관리실, 네일아트,
-                        <br/>방문 마사지, 홈 케어 등 정규 샵이
-                        <br/> 없는 분도 사용 가능합니다.</p>
-                </div>
-            </div>
-   <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        </div>
-    </section>
-        <section id="company">
-   
-            <div class="text">
-                <h4>    </h4>
-                <h2>ABOUT US</h2>
-                <p>헤이뷰티는 모바일과 O2O서비스에<br /> 풍부한 경력을 갖고 있는 팀입니다.</p>
-            </div>
-            <div class="info swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="col swiper-slide">
-                        <div class="graphic-1"></div>
-                        <h3>더벤처스의 사내벤처</h3>
-                        <p>헤이뷰티는 스타트업 전문투자사인 더벤처스의<br/> 사내벤처입니다. 더벤처스는 현재까지 <br/>글로우픽, 셀잇, 하우투메리, 파킹스퀘어 등 <br/>약 30여 기업을 투자한 국내 최고의 스타트업 전문<br/> 투자사로 더벤처스에 투자를 받은 경우, 1년간<br/> 100배 이상의 성장을 한 기업이 많습니다. <br/>헤이뷰티에는 더벤처스의 모바일과 O2O에 대한 <br/>역량이 모두 집중되고 있습니다.</p>
-                    </div>
-                    <div class="col swiper-slide">
-                        <div class="graphic-2"></div>
+    </div>
+</section>
 
-                        <h3>IT 최고의 경력자들</h3>
-                        <p>헤이뷰티 팀원들은 국내외 우수한 업체들에서 <br/>충분히 경력을 수행한 인력들로 구성되어 있습니다.<br /> Daum, 싸이월드, 넥슨코리아, 인터파크, KTH, <br />재능교육, 삼정회계법인, 스타벅스 등의 <br/>대기업뿐만 아니라 모션피플, 왓이프, <br/>카피앤페이스트, 빙글 등 국내 유수의 스타트업에서 <br />여러 경험을 쌓은 인재들로 구성되어 있습니다.</p>
-                    </div>
-                    <div class="col swiper-slide">
-                        <div class="graphic-3"></div>
-                        <h3>풍부한 네트워크</h3>
-                        <p>전세계에서 1000만 이상의 사용자가 사랑하고, <br/>한국에만 150만명이 넘는 뷰티커뮤니티를<br/> 갖고 있는 빙글은 더벤처스와 같은 대표이사의<br/> 회사로 헤이뷰티와 공동마케팅 이상의 <br/>협력관계를 갖고 있습니다. <br/>           또한 더벤처스가 갖고 있는 해외지사와, <br/>더벤처스에서 투자를 받은 회사 등, <br />국내외의 O2O / 광고 / 뷰티 큐레이션 /<br /> IT / 미디어 / 커뮤니티 회사들과 <br />협력 이상의 관계를 맺고 있습니다.</p>
-                    </div>
-                </div>
-     <div class="swiper-pagination"></div>
-            </div>
-             
-    </section>
-    <section class="join_us">
+<section id="main" class="gray swiper-slide">
+    <div class="wrap">
         <div class="text">
-            <h2 class="eng">Join Us Now</h2>
-            <p>지금 가입신청을 하시면 <span class="bold">2015년 동안 무료</span>로 <br/> 서비스를 이용하실 수 있습니다.
-                <br/> 지금 바로 가입하고 무료로 서비스를 이용해 보세요.</p>
+            <h4>    </h4>
+            <h2>새로운 손님을 찾으시나요?</h2>
+            <p>손님이 없는 시간, 그냥 버리기엔 아까운 시간들.
+                <br /> 헤이뷰티를 이용해보세요! 지금 당장 피부, 네일,
+                <br /> 헤어 시술을 받고 싶어 하는 고객들을 만나 보실 수 있습니다.
+                <br />'가격 할인'과 같은 이벤트를 하지 않아도 헤이뷰티를
+                <br /> 이용하시면, 새로운 손님이 찾아오게 됩니다.</p>
         </div>
-        <div class="btn"><a href="http://www.heybeauty.kr/" target="_blank">
+
+    </div>
+</section>
+
+<section id="custormer_info" class="swiper-slide">
+    <div class="wrap">
+        <div class="text">
+            <h4>    </h4>
+            <h2>고객 카드가 모바일로 쏙!</h2>
+            <p>고객카드를 간편하게 모바일에서 확인해 보세요.
+                <br />고객의 구매정보, 이전 관리 내역, 고객 특징들까지!
+                <br />자주 이용하는 고객과 요즘 들어 뜸해지는 고객들까지
+                <br />모두 확인해 보세요. 고객별 맞춤 메시지를 보내어
+                <br /> 고객 관리를 조금 더 정확하게 하실 수 있습니다.</p>
+        </div>
+    </div>
+</section>
+<section id="service" class="gray swiper-slide">
+    <div class="text">
+        <h4>    </h4>
+        <h2>그 밖의 유용한 서비스</h2>
+        <p>헤이뷰티는 뷰티살롱의 모든 문제를 해결하기 위해
+            <br/> 만들어진 서비스입니다. </p>
+    </div>
+    <div class="service swiper-container s2">
+        <div class="swiper-wrapper">
+            <div class="col swiper-slide">
+                <div class="facebook-ad"></div>
+                <h3> 페이스북 광고</h3>
+                <p>업소 반경 2km 거주 또는 근무하는
+                    <br/> 타겟 연령층 전원에게 페이스북을 통해
+                    <br/> 지역 광고를 대신해드립니다.</p>
+            </div>
+            <div class="col swiper-slide">
+                <div class="review"></div>
+                <h3> 직원평가 <span class="soon">준비중</span> </h3>
+                <p>시술/관리 후 돌아가는 고객에게 직원 및
+                    <br/> 시술 평가를 받을 수 있습니다.
+                    <br/>(결과는 사장님만 열람 가능합니다.)</p>
+            </div>
+            <div class="col swiper-slide">
+                <div class="no-shop"></div>
+                <h3> 샵이 없어도 가능</h3>
+                <p>오피스텔, 피부관리실, 네일아트,
+                    <br/>방문 마사지, 홈 케어 등 정규 샵이
+                    <br/> 없는 분도 사용 가능합니다.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+<section id="company" class="swiper-slide">
+    <div class="text">
+        <h4>    </h4>
+        <h2>ABOUT US</h2>
+        <p>헤이뷰티는 모바일과 O2O서비스에
+            <br /> 풍부한 경력을 갖고 있는 팀입니다.</p>
+    </div>
+    <div class="info swiper-container s3">
+        <div class="swiper-wrapper">
+            <div class="col swiper-slide">
+                <div class="graphic-1"></div>
+                <h3>더벤처스의 사내벤처</h3>
+                <p>헤이뷰티는 스타트업 전문투자사인 더벤처스의
+                    <br/> 사내벤처입니다. 더벤처스는 현재까지
+                    <br/>글로우픽, 셀잇, 하우투메리, 파킹스퀘어 등
+                    <br/>약 30여 기업을 투자한 국내 최고의 스타트업 전문
+                    <br/> 투자사로 더벤처스에 투자를 받은 경우, 1년간
+                    <br/> 100배 이상의 성장을 한 기업이 많습니다.
+                    <br/>헤이뷰티에는 더벤처스의 모바일과 O2O에 대한
+                    <br/>역량이 모두 집중되고 있습니다.</p>
+            </div>
+            <div class="col swiper-slide">
+                <div class="graphic-2"></div>
+
+                <h3>IT 최고의 경력자들</h3>
+                <p>헤이뷰티 팀원들은 국내외 우수한 업체들에서
+                    <br/>충분히 경력을 수행한 인력들로 구성되어 있습니다.
+                    <br /> Daum, 싸이월드, 넥슨코리아, 인터파크, KTH,
+                    <br />재능교육, 삼정회계법인, 스타벅스 등의
+                    <br/>대기업뿐만 아니라 모션피플, 왓이프,
+                    <br/>카피앤페이스트, 빙글 등 국내 유수의 스타트업에서
+                    <br />여러 경험을 쌓은 인재들로 구성되어 있습니다.</p>
+            </div>
+            <div class="col swiper-slide">
+                <div class="graphic-3"></div>
+                <h3>풍부한 네트워크</h3>
+                <p>전세계에서 1000만 이상의 사용자가 사랑하고,
+                    <br/>한국에만 150만명이 넘는 뷰티커뮤니티를
+                    <br/> 갖고 있는 빙글은 더벤처스와 같은 대표이사의
+                    <br/> 회사로 헤이뷰티와 공동마케팅 이상의
+                    <br/>협력관계를 갖고 있습니다. 또한 더벤처스의 해외지사와,
+                    <br/> 더벤처스에서 투자를 받은 회사 등, 국내외의 O2O / 광고 /
+                    <br /> 뷰티 큐레이션 / IT / 미디어 / 커뮤니티 회사들과
+                    <br />협력 이상의 관계를 맺고 있습니다.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="join_us swiper-slide">
+    <div class="text">
+        <h2 class="eng">Join Us Now</h2>
+        <p>지금 가입신청을 하시면 <span class="bold">2015년 동안 무료</span>로
+            <br/> 서비스를 이용하실 수 있습니다.
+            <br/> 지금 바로 가입하고 무료로 서비스를 이용해 보세요.</p>
+    </div>
+    <div class="btn"><a href="http://www.heybeauty.kr/" target="_blank">
             가입신청</a>
-        </div>
-    </section>
+    </div>
+</section>
+  </div><!--   swiper-wrapper end-->
+    <div class="swiper-pagination"></div>
+   </div><!--   swiper-container end-->
     <footer>
         <ul>
             <li>
