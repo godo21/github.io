@@ -322,23 +322,22 @@ nav li:hover {
      margin: auto;
      position: inherit;
      padding: 2% 0;
+     background-size: 
  }
  
  .graphic-1 {
      background: url(img/logo_theventures.png) center no-repeat;
-     background-size: 40%;
+
  }
  
  .graphic-2 {
     background: url(img/img_it.png) center no-repeat;
-    background-size: 40%;
+
 }
 
 .graphic-3 {
     background: url(img/img_company_3.png) center no-repeat;
-        background-size: 40%;
-
-}
+     
 
 
 /*-----------feature----------*/
