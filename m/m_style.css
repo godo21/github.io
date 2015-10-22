@@ -308,7 +308,7 @@ nav li:hover {
     height: 100%;
 }
 .info {
-    position: absolute;
+    position: inherit;
     top: 15%;
 /*    vertical-align: middle;*/
 }
@@ -342,6 +342,7 @@ nav li:hover {
 
 
 /*-----------feature----------*/
+/*
 
 #feature {
     height: 30%;
@@ -367,6 +368,7 @@ nav li:hover {
     font-weight: 300;
 }
 
+*/
 
 /*-----------Reservation----------*/
 
