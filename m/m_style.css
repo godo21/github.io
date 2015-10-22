@@ -308,7 +308,7 @@ nav li:hover {
     height: 100%;
 }
 .info {
-    position: inherit;
+    position: absolute;
     top: 15%;
 /*    vertical-align: middle;*/
 }
@@ -317,27 +317,28 @@ nav li:hover {
  .graphic-1,
  .graphic-2,
  .graphic-3 {
-     width: 233px;
-     height: 141px;
+     width: 100%;
+     height: 100px;
      margin: auto;
      position: inherit;
      padding: 2% 0;
-     background-size: 
  }
  
  .graphic-1 {
      background: url(img/logo_theventures.png) center no-repeat;
-
+     background-size: 40%;
  }
  
  .graphic-2 {
     background: url(img/img_it.png) center no-repeat;
-
+    background-size: 40%;
 }
 
 .graphic-3 {
     background: url(img/img_company_3.png) center no-repeat;
-     
+        background-size: 40%;
+
+}
 
 
 /*-----------feature----------*/
