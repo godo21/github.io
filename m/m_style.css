@@ -87,13 +87,11 @@ h4 {
 }
 
 p {
-    width: 70%;
     font-weight: 300;
     font-size: 80%;
-/*    font-size: 0.9em;*/
+    /*    font-size: 0.9em;*/
     margin: 15px auto 0;
     line-height: 1.5em;
-    padding: 0 15%;
     letter-spacing: -0.02em;
 }
 /*
