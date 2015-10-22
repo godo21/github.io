@@ -14,11 +14,17 @@
     <!-------ScrollAnimation------->
     <script>
         $(document).ready(function () {
-             var mySwiper1 = new Swiper('.s1', {
+             var mySwiper = new Swiper('.s0', {
                 // Optional parameters
                 direction: 'vertical',
                 loop: false,
    pagination: '.swiper-pagination',
+            });
+                 var mySwiper1 = new Swiper('.s1', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
             });
             var mySwiper2 = new Swiper('.s2', {
                 // Optional parameters
@@ -58,7 +64,7 @@
             </ul>
         </nav>
     </header>
-    <div class="swiper-container s1">
+    <div class="swiper-container s0">
         <div class="swiper-wrapper">
             <section class="main swiper-slide">
                 <div class="wrap">
@@ -75,8 +81,12 @@
                         <a class="youtube" href="https://www.youtube.com/embed/eYJoQVZFC0o"><img src="img/ic_play.png"> 소개영상보기</a>
                     </div>
                     <ul>
-                        <li><img src="img/img_app_store.png"></li>
+                    <li class="go-to-appstore"></li>
+                     <li class="go-to-google"></li>
+<!--
+                        <li><img src="img/img_app_store.png" ></li>
                         <li><img src="img/img_google_play.png"></li>
+-->
                     </ul>
 
 
@@ -99,6 +109,14 @@
                         <p>헤이뷰티는 고객과 뷰티살롱이 모두 부담이 되는
                             <br />전화통화 방식에서 벗어나서 뷰티살롱의 빈 시간을
                             <br />일정표에서 보고 직접 선택하는 서비스입니다.</p>
+                    </div>
+                    <div class="swiper-container s1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide m1"></div>
+                            <div class="swiper-slide m2"></div>
+                            <div class="swiper-slide m3"></div>
+                            <div class="swiper-slide m4"></div>
+                        </div>
                     </div>
                 </div>
             </section>
