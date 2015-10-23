@@ -12,43 +12,7 @@
     <script src="m_js/swiper.jquery.min.js"></script>
 
     <!-------ScrollAnimation------->
-    <script>
-        $(document).ready(function () {
-             var mySwiper = new Swiper('.s0', {
-                // Optional parameters
-                direction: 'vertical',
-                loop: false,
-   pagination: '.swiper-pagination',
-            });
-                 var mySwiper1 = new Swiper('.s1', {
-                // Optional parameters
-                direction: 'horizontal',
-                loop: true,
 
-            });
-            var mySwiper2 = new Swiper('.s2', {
-                // Optional parameters
-                direction: 'horizontal',
-                loop: true,
-
-            });
-                    var mySwiper3 = new Swiper('.s3', {
-                // Optional parameters
-                direction: 'horizontal',
-                loop: true,
-
-            });
-                          $(window).resize(function(){
-  mySwiper.reInit() // or mySwiper.resizeFix()
-});
-            $(".youtube").colorbox({
-                iframe: true,
-                innerWidth: 320,
-                innerHeight: 195
-            });
-        });
-
-    </script>
 <!--Header-->
 <link rel="stylesheet" href="colorbox.css" />
 <link rel="stylesheet" href="m_style.css">
@@ -262,19 +226,45 @@
         </div> <!--   swiper-wrapper end-->
         <div class="swiper-pagination"></div>
     </div> <!--   swiper-container end-->
-<!--
-    <footer>
-        <ul>
-            <li>
-                <a href="https://www.facebook.com/heybeautykr?fref=ts" target="_blank"><img src="img/facebook.png"></a>
-            </li>
-            <li>
-                <a href="https://instagram.com/heybeauty.kr/" target="_blank"><img src="img/instagram.png"></a>
-            </li>
-        </ul>
-        <p>Copyright © 2015 HeuBeauty. All Rights Reserved.</p>
-    </footer>
--->
+
+    <script>
+        $(document).ready(function () {
+             var mySwiper = new Swiper('.s0', {
+                // Optional parameters
+                direction: 'vertical',
+                loop: false,
+   pagination: '.swiper-pagination',
+            });
+                 var mySwiper1 = new Swiper('.s1', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+            });
+            var mySwiper2 = new Swiper('.s2', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+            });
+                    var mySwiper3 = new Swiper('.s3', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+            });
+                          $(window).resize(function(){
+//  mySwiper.reInit() 
+                              mySwiper.resizeFix()
+});
+            $(".youtube").colorbox({
+                iframe: true,
+                innerWidth: 320,
+                innerHeight: 195
+            });
+        });
+
+    </script>
 </body>
 
 </html>
