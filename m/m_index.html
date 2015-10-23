@@ -38,7 +38,9 @@
                 loop: true,
 
             });
-                          
+                          $(window).resize(function(){
+  mySwiper.reInit() // or mySwiper.resizeFix()
+});
             $(".youtube").colorbox({
                 iframe: true,
                 innerWidth: 320,
