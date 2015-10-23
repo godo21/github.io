@@ -75,6 +75,7 @@ h3 {
     font-weight: 500px;
     padding-top: 5%;
 }
+
 h4 {
     background-color: RGB(0, 214, 183);
     width: 30px;
@@ -89,6 +90,8 @@ p {
     line-height: 1.5em;
     letter-spacing: -0.02em;
 }
+
+
 /*
 .col {
     width: 100%;
@@ -105,6 +108,7 @@ p {
     margin-top: 2%;
     height: auto;
 }
+
 .btn {
     margin: auto;
     border-radius: 22px;
@@ -127,23 +131,26 @@ p {
 .gray {
     background-color: #FAFAFA;
 }
-.s0{
+
+.s0 {
     width: 100%;
     height: 100%;
 }
-.s1{
+
+.s1 {
     width: 100%;
     height: 100%;
 }
+
 .s2 {
-/*    width: 100%;*/
-    height: auto;
-}
-.s3 {
-/*    width: 100%;*/
+    /*    width: 100%;*/
     height: auto;
 }
 
+.s3 {
+    /*    width: 100%;*/
+    height: auto;
+}
 
 
 /*------------End common------------*/
@@ -221,7 +228,7 @@ nav li:hover {
     width: 100%;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: 0.35em;
-     margin-left: 1%;
+    margin-left: 1%;
     font-size: 1em;
     text-align: center;
 }
@@ -250,7 +257,7 @@ nav li:hover {
     padding: 13px 0 0 0;
     height: 32PX;
     border-radius: 50px;
-        font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
 
@@ -276,11 +283,9 @@ nav li:hover {
 }
 
 .main li {
-    
     display: inline-block;
     margin: 10px;
-       background-size: 50%;
-
+    background-size: 50%;
 }
 
 .wrap {
@@ -290,47 +295,54 @@ nav li:hover {
     height: 100%;
     margin: 0 auto;
 }
-.go-to-appstore{
 
+.go-to-appstore {
     background: url(img/img_app_store.png) center no-repeat;
 }
-.go-to-google{
 
+.go-to-google {
     background: url(img/img_google_play.png) center no-repeat;
 }
+
+
 /*===========About Us=============*/
 
-#company {
-    height: 100%;
-}
+
 .info {
     position: absolute;
     top: 15%;
-/*    vertical-align: middle;*/
+    /*    vertical-align: middle;*/
 }
 
-.graphic-1, .graphic-2, .graphic-3 {
+.graphic-1,
+.graphic-2,
+.graphic-3 {
     width: 233px;
     height: 100px;
     margin: auto;
     position: inherit;
     padding: 2% 0;
-        background-size: 10%;
 }
 
 .graphic-1 {
     background: url(img/logo_theventures.png) center no-repeat;
+    background-size: 70%;
 }
 
 .graphic-2 {
     background: url(img/img_it.png) center no-repeat;
+    background-size: 70%;
 }
 
 .graphic-3 {
     background: url(img/img_company_3.png) center no-repeat;
-
+    background-size: 70%;
 }
+
+
 /*-----------feature----------*/
+
+
 /*
 
 #feature {
@@ -359,31 +371,42 @@ nav li:hover {
 
 */
 
+
 /*-----------Reservation----------*/
 
 #reservation {
     z-index: 5;
 }
-.m1, .m2, .m3, .m4{
+
+.m1,
+.m2,
+.m3,
+.m4 {
     width: 320px;
     height: 480px;
 }
-.s1 .m1{
+
+.s1 .m1 {
     background: url(img/img_phone_user.png) center no-repeat scroll;
     background-size: 60%;
 }
-.s1 .m2{
+
+.s1 .m2 {
     background: url(img/img_phone_done.png) center no-repeat scroll;
     background-size: 60%;
 }
-.s1 .m3{
+
+.s1 .m3 {
     background: url(img/img_phone_ready.png) center no-repeat scroll;
     background-size: 60%;
 }
-.s1 .m4{
+
+.s1 .m4 {
     background: url(img/img_phone_shop.png) center no-repeat scroll;
     background-size: 60%;
 }
+
+
 /*
 
 #reservation .wrap {
@@ -396,9 +419,11 @@ nav li:hover {
 
 
 /*-----------section 2----------*/
-#main{
+
+#main {
     z-index: 5;
 }
+
 #main .wrap {
     background: url(img/img_app_main_list.png) bottom center no-repeat;
     background-size: 70%;
@@ -423,6 +448,7 @@ nav li:hover {
 }
 
 /*----------service info--------*/
+
 /*
 #service {
     height: 80%;
@@ -438,10 +464,9 @@ nav li:hover {
     width: 100%;
     height: 50%;
 }
-.service h3{
-    top:1%;
+.service h3 {
+    top: 1%;
 }
-
 .facebook-ad,
 .review,
 .no-shop {
@@ -517,4 +542,3 @@ nav li:hover {
     color: #505E63;
     font-size: 12px;
 }
-
