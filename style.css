@@ -233,7 +233,7 @@ nav li:hover {
 
 .main ul {
     position: absolute;
-    bottom: 1%;
+    bottom: 4%;
     height: auto;
 }
 
@@ -260,7 +260,7 @@ nav li:hover {
     position: absolute;
     font-weight: 700;
     height: auto;
-    bottom: 17%;
+    bottom: 20%;
 }
 
 .wrap {
