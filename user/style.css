@@ -116,7 +116,7 @@ header {
 .text-wrap {
     position: relative;
     width:80%;
-    top: 5em;
+    top: 6em;
     left: 2em;
        
 }
@@ -137,7 +137,10 @@ header {
     color: rgba(0, 0, 0, 0.7);
 }
 
-
+#introduce-1{
+    background: url(img/bg_intro_1.png) no-repeat;
+    background-size: cover;
+}
 
 /*----------Introduce-END--------*/
 
