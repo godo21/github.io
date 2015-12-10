@@ -103,7 +103,8 @@ header {
 }
 #download p{
     position: relative;
-    top: 3em;
+    top: 3.4em;
+    font-size: 0.8em;
 }
 #download img{
     position: relative;
