@@ -1,4 +1,5 @@
 html, body, header, section, p, h1, h2, ul, li, a{
+   
     width: 100%;
     height: 100%;
     padding: 0;
@@ -12,7 +13,6 @@ html, body, header, section, p, h1, h2, ul, li, a{
 }
 p, h1, h2, ul, li{
     height: auto;
-
 }
 ul{
     position: absolute;
@@ -20,8 +20,15 @@ ul{
 ul li{
     display: inline;
 }
+.block{
+    width: 10px;
+    color: rgba(0,0,0,0)
+}
 img{
     width: 7em;
+}
+a{
+    color: #fff;
 }
 h1{
     font-size: 1.5em;
@@ -42,14 +49,15 @@ header {
 }
 #main h1{
     position: absolute;
-    top: 90px;
+    top: 3.5em;
 }
 #main ul{
-    top:180px;
+ top: 9.5em;
+
 }
 #main p{
       position: absolute;
-    top:240px;
+    top: 13em;
 }
 .img_phone{
     position: inherit;
@@ -62,9 +70,10 @@ header {
 .btn_download_main{
     position: absolute;
     width: 100%;
-    height: 7%;
+    height: 6%;
     bottom:0;
-    padding: 3% 0 0 0;
+    padding: 4.6% 0 0 0;
+    font-size: 1.2em;
     background: #45E0DD;
     
 }
