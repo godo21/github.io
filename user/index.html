@@ -1,9 +1,15 @@
 <!DOCTYPE html>
+<html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="swiper.css">
+    <!-- jQuery library (served from Google) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+
 </head>
 <!-------------HEAD END-------------->
 
@@ -21,24 +27,89 @@
         </ul>
         <p>안드로이드는 2월 오픈 예정</p>
         <div class="img_phone"></div>
-        <a href="https://appsto.re/kr/Dh6P-.i"><div class="btn_download_main">지금 바로 다운로드하세요</div></a>
+        <a href="https://appsto.re/kr/Dh6P-.i">
+            <div class="btn_download_main">지금 바로 다운로드하세요</div>
+        </a>
     </section>
-    <section id="user-reviews">
+    <section id="user-reviews" class="swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <p><span class="itallic">점심시간 반납하고 회사 근처 네일샵 예약. <br>원하는 시간에 것도 당일날 업무 지장 없이 편하게 다녀옴! <br>네일샵 사장님도 신기해 하시고 나도 신기방기!!<br> 워킹맘이라 네일은 포기한지 오래였는데 <br>덕분에 기분전환 제대로 한듯. 앱도 너무 아기자기 예뻐!
+                    <br></span>
+                    <br>@산본_여노유노맘</p>
+            </li>
+            <!----------------REVIEW 01 END---------------->
+            <li class="swiper-slide">
+                <p><span class="itallic">애 키우다 보면 자유시간이 남편은 들어오고<br>애는 자는 새벽 밖에 없는데 새벽에 하는 뷰티살롱은 <br>없어서 새벽에 극장 한번 가면 다행이었어요.
+                    <br>헤이뷰티는 새벽에 영업하는 네일아트와 피부관리샵 <br>건전마사지샵도 있어서 새벽탈출해서 꾸밀 수 있어서 좋았어요.
+                    </span>
+                    <br>
+                    <br> @역삼동_백호맘
+                </p>
+            </li>
+            <!----------------REVIEW 02 END---------------->
+            <li class="swiper-slide">
+                <p><span class="itallic">퇴근시간 되면 부리나케 집에 뛰어가야 하는 <br>워킹맘 인생상, 네일아트는 제게 사치였어요.<br> 그래서 네일스티커를 붙이고 다녔답니다.
+                    <br>헤이뷰티가 있다보니 회사앞 네일아트샵에 <br>점심시간에 다녀올수 있어 이제 스티커 네일 탈출했어요.</span>
+                    <br>
+                    <br>@삼성동_시훈맘</p>
+            </li>
+            <!----------------REVIEW 03 END---------------->
+            <li class="swiper-slide">
+                <p><span class="itallic">일주일 내내 하루종일 아이에게 붙들려있다가 <br>친정엄마 찬스를 쓰게 되는 날이며, 전화기를 붙잡고 <br>네일아트니 피부관리샵이니 맛사지샵이니 전화를 해요.
+                   <br> <br>하지만 미리 예약하지 않은 저보고 오라고 하시는 샵은 없죠.
+                    <br>이젠 친정엄마 찬스때 맛사지 받을 수 있어요.</span>
+                    <br>
+                    <br>@창전동_DJ로파키드</p>
+            </li>
+            <!----------------REVIEW 04 END---------------->
+            <li class="swiper-slide">
+                <p><span class="itallic">아이 셋 머리손질 하려면 스케쥴 잡기는 커녕 <br>전화한통 하기도 힘들었어요.
+                    <br>그런데 헤이뷰티는 간단히 예약여부를 <br>확인 할 수 있는 서비스여서 좋았습니다.</span>
+                    <br>
+                    <br>@용산_수엄마</p>
+            </li>
+            <!----------------REVIEW 05 END---------------->
+
+        </ul>
+        <div class="swiper-pagination"></div>
 
     </section>
     <section id="download">
-        <a href="https://appsto.re/kr/Dh6P-.i"><p>지금 바로 다운로드 하세요</p></a>
+        <a href="https://appsto.re/kr/Dh6P-.i">
+            <p>지금 바로 다운로드 하세요</p>
+        </a>
         <img src="img/btn_appstore_normal.png">
     </section>
     <footer>
         <ul>
             <li>
                 <a href="https://www.facebook.com/heybeautykr?fref=ts"><img src="img/ic_facebook.png"></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/heybeauty.me/"><img src="img/ic_insta.png"></a>
-        </li>
+            </li>
+            <li class="block">......</li>
+            <li>
+                <a href="https://www.instagram.com/heybeauty.me/"><img src="img/ic_insta.png"></a>
+            </li>
         </ul>
         <p>@heybeauty</p>
-        </footer>
+    </footer>
+    <script src="swiper.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="../dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            paginationClickable: true,
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: 2500,
+            autoplayDisableOnInteraction: false
+        });
+    </script>
 </body>
+
+</html>
