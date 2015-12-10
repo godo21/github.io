@@ -56,8 +56,9 @@ header {
 
 }
 #main p{
-      position: absolute;
-    top: 13em;
+    position: absolute;
+    top: 14em;
+    font-size: 0.9em;
 }
 .img_phone{
     position: inherit;
