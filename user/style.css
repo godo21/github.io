@@ -92,13 +92,27 @@ header {
 
 /*---------User-review-END--------*/
 #download{
-    height: 200px;
-    color: #303030;
+/*    position: absolute;*/
+/*      display: block;*/
+    height: 180px;
 }
-
+#download h2{
+     position: relative;
+    color: #303030;
+    top: 1.7em;
+}
+#download p{
+    position: relative;
+    top: 3em;
+}
+#download img{
+    position: relative;
+    top:3.5em;
+}
 /*---------Download-END-----------*/
 footer{
-    position: relative;
+    position:relative;
+    display: block;
     height: 100px;
     background: #213840;
 }
