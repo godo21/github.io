@@ -20,7 +20,9 @@ ul{
 ul li{
     display: inline;
 }
-
+img{
+    width: 7em;
+}
 h1{
     font-size: 1.5em;
 }
