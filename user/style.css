@@ -14,8 +14,10 @@ p, h1, h2, ul, li{
     height: auto;
 
 }
+ul{
+    position: absolute;
+}
 ul li{
-    position: relative;
     display: inline;
 }
 img{
@@ -41,6 +43,9 @@ header {
 #main h1{
     position: absolute;
     top: 90px;
+}
+#main ul{
+    top:200px;
 }
 .img_phone{
     position: inherit;
